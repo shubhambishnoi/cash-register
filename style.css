@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(2, 5,24);
+}
+:root{
+    --primary:lightblue;
+    --faint-green:#A7F3D0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin:auto;
+    color:var(--faint-green)    
+}
+
+table{
+    width:100%;
+    margin-top: 50px;
+}
+td{
+    text-align: center;
+    width:50px;
+    background-color :white;
+    color:black;
+}
+th{
+    width:100px;
+}
+  
+#bill-amount,#paid-amount{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#check-button{
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+}
+
+#github-link{
+    text-decoration: none;
+    margin-left:90%;
+    font-size: 25px;
+    font-weight: bold;
+    color:whitesmoke;
+}
