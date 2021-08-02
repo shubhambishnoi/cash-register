@@ -47,3 +47,8 @@ th{
     font-weight: bold;
     color:whitesmoke;
 }
+
+table caption{
+    font-size: 20px;
+    font-weight: bold;
+}
